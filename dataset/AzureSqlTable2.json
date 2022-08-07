@@ -1,0 +1,31 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "country_id",
+				"type": "char"
+			},
+			{
+				"name": "country_name",
+				"type": "varchar"
+			},
+			{
+				"name": "region_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "countries"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

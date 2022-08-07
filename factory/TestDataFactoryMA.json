@@ -1,0 +1,9 @@
+{
+	"name": "TestDataFactoryMA",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "96159f01-03a7-4c1e-9d1d-090d9b9d6043",
+		"tenantId": "7615c787-d8c9-4ee8-8be5-08ebc2db3339"
+	}
+}
